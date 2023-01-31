@@ -1,5 +1,5 @@
 body, html {
-  background-image: url(images/forest.jpg);
+  background-image: url(img/back.png);
 
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
