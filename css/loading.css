@@ -1,5 +1,5 @@
 body {
-    background-image: "img/back.png";
+    background-image: url(img/back.png);
   }
   .dots-container{
     padding: 0;
