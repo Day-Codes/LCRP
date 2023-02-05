@@ -1,4 +1,9 @@
-/* When your mouse cursor enter the background, the fading won't pause and keep playing */ 
-$('.carousel').carousel({
-    pause: "false" /* Change to true to make it paused when your mouse cursor enter the background */
-});
+$(".prod-logo").hover(function () {
+    $(".inner").addClass("inner-hover");
+    $(".nav-li").slideDown(500);
+  },
+  function () {
+    $(".inner").removeClass("inner-hover");
+   $(".nav-li").slideUp(500);
+  }
+);
